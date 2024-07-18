@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify – Web Player</title>
+  <!-- style sheet link -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css" />
+
+  <!-- Font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Poppins font by google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+    <!-- spotify logo -->
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body oncontextmenu="return false;">
+  <div class="container flex">
+    <!-- //TODO * left container  -->
+    <div class="leftcontainer">
+      <div class="leftcontainer-top grey-background m-px p-px rounded-border">
+        <!-- //TODO * left container top childs  -->
+         <div class="closehamburger flex">
+           <img class="background-transparent invert-img" src="images/spotify-logo.svg" alt="Spotify" />
+           <i id="closebutton" class="fa-solid fa-xmark fa-2xl" style="color: #ffffff;"></i>
+         </div>
+        <div class="bold-text flex background-transparent top-bottom-padding">
+          <img class="invert-img background-transparent image-width right-padding" src="images/home-logo.svg"
+            alt="HOME ICON" />Home
+        </div>
+        <div class="bold-text flex background-transparent top-bottom-padding">
+          <img class="invert-img background-transparent image-width right-padding" src="images/search-icon.svg"
+            alt="SEARCH ICON" />Search
+        </div>
+      </div>
+
+      <div class="leftcontainder-bottom grey-background m-px p-px rounded-border">
+        <!-- //TODO * left container bottom childs  -->
+        <div class="bold-text flex background-transparent">
+          <img class="invert-img background-transparent image-width right-padding" src="images/library-logo.svg"
+            alt="LIBRARY ICON" />Your Library
+        </div>
+        <!--todo to list songs in the section  -->
+        <div class="songslist flex">
+          <ul>
+            
+          </ul>
+        </div>
+        <!-- //TODO this is the footer section of left side container -->
+        <div class="footer">
+            <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy Center</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+          </div>
+       
+      </div>
+        <!-- //TODO footer ends -->
+      <!-- //TODO div for the left container end below  -->
+    </div>
+
+    <div class="rightcontainer grey-background m-noLeft-px rounded-border">
+
+      <!-- //TODO right header starts here -->
+      <div class="rightheader flex grey-background">
+        <!-- //TODO left right buttons-->
+        <div class="nav flex grey-background">
+          <div id="hamburger">
+            <i class="fa-solid fa-2xl fa-bars" style="color: #ffffff;"></i>
+          </div>
+          <div id="headerbuttons">
+            <i class="fa-solid fa-angle-up fa-xl fa-rotate-270" style="color: #979797;"></i>
+            <i class="fa-solid fa-angle-up fa-xl fa-rotate-90" style="color: #979797;"></i>
+          </div>
+        </div>
+        <!-- //TODO login & signup buttons-->
+        <div class="buttons grey-background">
+          <button class="right-margin button1">Sign Up</button>
+          <button class="button2">Log in</button>
+        </div>
+      </div>
+      <!-- //TODO right header ends here-->
+
+      <div class="rightcontainer-body p-px">
+        <h2 class="m-noLeft-px">Spotify Playlists</h2>
+        <!-- //TODO card container begins here-->
+        <div class="cardcontainer flex">
+          <!-- //TODO first card -->
+          <!-- <div data-clickedsong="hindi" class="card rounded-border grey-background">
+            <div class="playbutton">
+              <svg class="playbuttonArrow" width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="30,20 30,80 80,50" fill="black"/></svg>
+            </div>
+            <img class="rounded-border margin-bottom" src="images/playlist-img1.jpg" alt="some error occured">
+            <h5 class="margin-bottom">Today's Top Hits</h5>
+            <p class="margin-bottom">Chappell Roan is on the top of the Hottest 50!</p>
+          </div> -->
+          <!-- //TODO second card-->
+          <!-- <div data-clickedsong="punjabi" class="card rounded-border grey-background">
+            <div class="playbutton">
+              <svg class="playbuttonArrow" width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="30,20 30,80 80,50" fill="black"/></svg>
+            </div>
+            <img class="rounded-border margin-bottom" src="images/playlist-img1.jpg" alt="some error occured">
+            <h5 class="margin-bottom">Today's Top Hits</h5>
+            <p class="margin-bottom">Chappell Roan is on the top of the Hottest 50!</p>
+          </div> -->
+        </div>
+        <br><br><br><br>
+        <div class="footer-playbuttons">
+          <!-- todo //to display song name on the seek bar -->
+           <div id="songNameDisplay"></div>
+          <div class="playpause-buttons">
+            <a href="#">
+              <img id="previous" class="playbuttons-width" src="images/leftsongbutton.svg" alt="previous">
+            </a>
+            <a href="#">
+              <img id="play" class="playbuttons-width" src="images/PlayPause-song.svg" alt="play">
+            </a>
+            <a href="#">
+              <img id="next" class="playbuttons-width" src="images/rightsongbutton.svg" alt="next">
+            </a>
+          </div>
+          <div class="trackbar">
+            <div class="circle"></div>
+          </div>
+          <div class="flex volumeParent">
+            <div id="songDuration">00:00 / 00:00</div>
+            <div class="volumeRange flex">
+              <img class="image-width volume" src="images/volume.svg" alt="">
+              <input id= "volumehover" type="range" name="range"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
