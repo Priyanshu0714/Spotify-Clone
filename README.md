@@ -24,15 +24,15 @@ This project is a fully responsive clone of the Spotify website, designed to pro
 - **Footer Section:** Includes links to Legal Safety & Privacy Center Privacy Policy Cookies About Ads Accessibility with are directly linked to the original website pages.
 
 ## Demo
-Spotify Clone Desktop view
+**Spotify Clone Desktop view**
 ![Spotify Clone Desktop view](https://github.com/Priyanshu0714/Spotify-Clone/blob/main/Spotify-web-view.png)  
-Spotify Clone Mobile view-1
+**Spotify Clone Mobile view-1**
 ![Spotify Clone Mobile view-1](https://github.com/Priyanshu0714/Spotify-Clone/blob/main/mobile-view1.jpeg)  
-Spotify Clone Mobile view-2
+**Spotify Clone Mobile view-2**
 ![Spotify Clone Mobile view-2](https://github.com/Priyanshu0714/Spotify-Clone/blob/main/mobileview2.jpeg)  
-Spotify Clone Tablet view-1
+**Spotify Clone Tablet view-1**
 ![Spotify Clone Tablet view-1](https://github.com/Priyanshu0714/Spotify-Clone/blob/main/spotify-tablet-view.png)  
-Spotify Clone Tablet view-2
+**Spotify Clone Tablet view-2**
 ![Spotify Clone Tablet view-2](https://github.com/Priyanshu0714/Spotify-Clone/blob/main/spotify-tablet-view-2.png)  
 
 ## Installation
