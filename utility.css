@@ -1,0 +1,68 @@
+.grey-background{
+    background-color: #121212;
+    
+}
+.m-px{
+    margin: 5px;
+}
+.m-noLeft-px{
+    margin: 5px 5px 5px 0;
+}
+.p-px{
+    padding: 18px 22px;
+}
+.flex{
+    display: flex;
+}
+.invert-img{
+    filter: invert(1);
+}
+.background-transparent{
+    background-color: transparent;
+}
+.image-width{
+    width: 24px;
+}
+.top-bottom-padding{
+    padding: 12px 0;
+}
+.right-padding{
+    padding-right: 19px;
+}
+.right-margin{
+    margin-right: 10px;
+}
+.rounded-border{
+    border-radius: 8px;
+}
+.bold-text{
+    font-weight: 600;
+}
+.margin-bottom{
+    margin-bottom: 5px;
+}
+.playbuttons-width{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 20%;
+    padding: 0 7px;
+    position: relative;
+    top: 1px;
+}
+.playbuttons-width:hover{
+    background-color: rgb(116, 230, 116);
+    transition: all 0.3s ease-out;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+    background-color: #222;
+    border-radius: 8px;
+}
